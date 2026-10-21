@@ -1,0 +1,54 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets
+data/
+datasets/
+
+# Model checkpoints and large model files
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Frontend environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Coverage reports
+coverage/
